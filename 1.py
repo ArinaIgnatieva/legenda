@@ -1,11 +1,10 @@
-name = "Arina"
-surname = "Ignatieva"
-date = 2004
+a = input("Введите имя студента")
+b = input("Введите фамилию студента")
+c = int(input("Введите год рождения студента"))
 
-print (name, surname, date)
+print(a, b, c)
 
-name, surname = surname, name
-date += 60
+a, b = b, a 
+c += 60 
 
-print (name, surname, date)
-
+print (a, b, c)
